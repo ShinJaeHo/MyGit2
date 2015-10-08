@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sp_name">SP_NAME</string>
+    <string name="my_name_title">만든이 : </string>
+    <string name="my_name">임성혁</string>
+    <string name="naver_weather">네이버 날씨보기</string>
+</resources>

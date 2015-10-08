@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat : 36.11"
+        android:id="@+id/txtDtLat"
+        android:textSize="@dimen/text_size3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lon : 129.35"
+        android:id="@+id/txtDtLon"
+        android:textSize="@dimen/text_size3"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtDtLat"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud"
+        android:id="@+id/txtDtCloud"
+        android:textSize="@dimen/text_size1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kyongsang-namdo"
+        android:id="@+id/txtDtname"
+        android:textSize="@dimen/text_size2"
+        android:layout_above="@+id/txtDtCloud"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size2"
+        android:text="Wind : 3.6"
+        android:id="@+id/txtDtWind"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtDtCloud"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp : 29.8"
+        android:id="@+id/txtDtTemp"
+        android:textSize="@dimen/text_size2"
+        android:layout_below="@+id/txtDtWind"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hymidity : 61"
+        android:id="@+id/txtDtHumidity"
+        android:textSize="@dimen/text_size2"
+        android:layout_below="@+id/txtDtTemp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/naver_weather"
+        android:id="@+id/txtShow"
+        android:textSize="@dimen/text_size2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

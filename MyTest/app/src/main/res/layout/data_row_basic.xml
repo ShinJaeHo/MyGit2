@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지역이름"
+        android:id="@+id/txtName"
+        android:textSize="@dimen/text_size1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/txtId"
+        android:textSize="@dimen/text_size2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat"
+        android:id="@+id/txtLat"
+        android:textSize="@dimen/text_size3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lon"
+        android:id="@+id/txtLon"
+        android:textSize="@dimen/text_size3"
+        android:layout_below="@id/txtName"
+        android:layout_toLeftOf="@+id/txtLat"
+        />
+</RelativeLayout>
